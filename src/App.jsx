@@ -64,10 +64,8 @@ function App() {
       altText: "Spidermonkey"
     }
   ];
-  
-  return (
-    <div>
-      {aliens.map((alien, index) => (
+
+  {aliens.map((alien, index) => (
         <Card
           key={index}
           title={alien.title}
@@ -76,6 +74,10 @@ function App() {
           altText={alien.altText}
         />
       ))}
+      
+  return (
+    <div>
+      
     </div>
   );
 }

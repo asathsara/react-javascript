@@ -1,0 +1,13 @@
+.counterContainer{
+    text-align: center;
+    
+}
+.counter{
+    font-size: 5rem;
+    font-weight: 500;
+    margin: 10px;
+}
+
+.btn{
+    margin: 10px;
+}
