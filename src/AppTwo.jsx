@@ -7,13 +7,13 @@
 // useState() = A React hook that allows the creation of a stateful variable AND a setter function to update its value in the Virtual DOM.
 //[name, setName]
 
-import Counter from "./components/Counter/Counter"
+import ColorPicker from "./components/ColorPicker/ColorPicker"
 
 
 const AppTwo = () => {
   return (
       <div>
-          <Counter />
+          <ColorPicker />
       </div>
   )
 }
