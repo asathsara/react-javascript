@@ -8,12 +8,13 @@
 //[name, setName]
 
 import ColorPicker from "./components/ColorPicker/ColorPicker"
+import Counter from "./components/Counter/Counter"
 
 
 const AppTwo = () => {
   return (
       <div>
-          <ColorPicker />
+          <Counter />
       </div>
   )
 }
